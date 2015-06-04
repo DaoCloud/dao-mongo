@@ -30,3 +30,4 @@ MongoDB是一个高性能、开源、无Schema的NoSQL数据库管理系统，�
 如果你想启动MongoDB并忽略密码登录，你可以设置环境变量 *AUTH* 为 *no*, 默认为 *yes* 。
 
 
+
