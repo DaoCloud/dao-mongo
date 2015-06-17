@@ -13,7 +13,7 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 && \
 RUN mkdir /data && \
     mkdir /data/db
 
-ENV AUTH yes
+ENV AUTH no
 ENV STORAGE_ENGINE wiredTiger
 ENV JOURNALING yes
 
